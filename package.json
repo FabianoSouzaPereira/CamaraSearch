@@ -1,10 +1,28 @@
 {
     "name": "CamaraSearch",
     "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "fabiano",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Fabiano de Souza Pereira",
     "contributors": [],
-    "dependencies": {}, "scripts":{
-"start":"node main.js"}
-
+    "dependencies": {},
+    "scripts": {
+        "start": "node main.js"
+    },
+    
+    [
+  {
+        "fullName": "Nome do Deputado, ex: João da Silva",
+        "birthday": "Data de aniversário, formato  DD-MM",
+        "party": "Sigla do Partido, ex: PJS",
+        "state": "Sigla do Estado do Depudado, ex: SC",
+        "main": "Se for Titular 'true', senão false ou null",
+        "phone": "Telefone do Deputado Federal",
+  }
+    ] 
 }
