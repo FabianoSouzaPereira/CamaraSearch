@@ -6,8 +6,5 @@
 
 'use strict';
 
-var http = require('http');
-var https = require('https');
-var url = require('url');
-var util = require('util');
+var bootstrap = request("./bootstrap/boottrap.js");
 
